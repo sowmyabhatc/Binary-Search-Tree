@@ -196,16 +196,16 @@ bst_descending(tree);
 }
 int main()
 {
-    test_new();
-    test_inorder();
-    test_postorder();
+    //test_new();
+    //test_inorder();
+    //test_postorder();
     test_levelordertraversal();
-    test_height();
-    test_terminal();
-    test_max();
-    test_min();
-    test_ascending();
-    test_descending();
+    //test_height();
+    //test_terminal();
+    //test_max();
+    //test_min();
+    //test_ascending();
+    //test_descending();
     return 0;
 
 }

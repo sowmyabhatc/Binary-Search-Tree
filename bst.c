@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include "bst.h"
-#include "../adaptive queues/queue.h"
+#include "..\adaptive queues\queue.c"
 
 BST  bst_new(){
 BST bst={NULL,0};
@@ -181,7 +181,7 @@ while(!queue_empty(q)){
     if(node->ri){
         queue_add(q,node->ri,&res);
     }
-    print("%d\t",node->data);
+    printf("%d\t",node->data);
 }
 
 }
